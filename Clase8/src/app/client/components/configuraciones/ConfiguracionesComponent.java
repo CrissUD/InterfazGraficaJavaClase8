@@ -20,14 +20,14 @@ public class ConfiguracionesComponent implements MouseListener, MouseMotionListe
 
     @Override
     public void mouseClicked(MouseEvent e) {
-        this.configuracionesTemplate.getLPOnClickXValor().setText(e.getX()+"");
-        this.configuracionesTemplate.getLPOnClickYValor().setText(e.getY()+"");
+        this.configuracionesTemplate.getLPOnClickXValor().setText(e.getX() + "");
+        this.configuracionesTemplate.getLPOnClickYValor().setText(e.getY() + "");
     }
 
     @Override
     public void mousePressed(MouseEvent e) {
-        this.configuracionesTemplate.getLPInicialXValor().setText(e.getX()+"");
-        this.configuracionesTemplate.getLPInicialYValor().setText(e.getY()+"");
+        this.configuracionesTemplate.getLPInicialXValor().setText(e.getX() + "");
+        this.configuracionesTemplate.getLPInicialYValor().setText(e.getY() + "");
     }
 
     @Override
@@ -48,14 +48,14 @@ public class ConfiguracionesComponent implements MouseListener, MouseMotionListe
 
     @Override
     public void mouseDragged(MouseEvent e) {
-        this.configuracionesTemplate.getLLadoXValor().setText(e.getX()+"");
-        this.configuracionesTemplate.getLLadoYValor().setText(e.getY()+"");
+        this.configuracionesTemplate.getLLadoXValor().setText(e.getX() + "");
+        this.configuracionesTemplate.getLLadoYValor().setText(e.getY() + "");
     }
 
     @Override
     public void mouseMoved(MouseEvent e) {
-        this.configuracionesTemplate.getLPActualXValor().setText(e.getX()+"");
-        this.configuracionesTemplate.getLPActualYValor().setText(e.getY()+"");
+        this.configuracionesTemplate.getLPActualXValor().setText(e.getX() + "");
+        this.configuracionesTemplate.getLPActualYValor().setText(e.getY() + "");
     }
 
     @Override
@@ -63,10 +63,7 @@ public class ConfiguracionesComponent implements MouseListener, MouseMotionListe
         int valorZoomActual = Integer.parseInt(this.configuracionesTemplate.getLZoomValor().getText());
         if(e.getWheelRotation() == -1)
             this.configuracionesTemplate.getLZoomValor().setText(valorZoomActual + 1 + "");
-        if(
-            e.getWheelRotation() == 1 &&
-            Integer.parseInt(this.configuracionesTemplate.getLZoomValor().getText()) > 0
-        )
+        if(e.getWheelRotation() == 1 && valorZoomActual > 0)
             this.configuracionesTemplate.getLZoomValor().setText(valorZoomActual - 1 + "");
     }
 }
