@@ -523,7 +523,7 @@ public void mouseClicked(MouseEvent e) {
 Una vez ejecutamos nuestra aplicación, mostramos nuestro componente **Configuraciones** y damos click en cualquier parte del panel de interacción **pDibujo** se cambiara automáticamente la información de la posición de X,Y cuando se da Click:
 
 <div align='center'>
-    <img  src='https://i.imgur.com/vEBkW5i.gif'>
+    <img  src='./resources/MouseClick1.gif'>
     <p>Componente Configuraciones con la implementación de MouseClicked</p>
 </div>
 
@@ -532,7 +532,7 @@ Ahora bien puede observar que si se oprime click en cualquier otra parte que no 
 ***Nota:** En el video no se ve reflejado que el botón se mantiene oprimido pero como ya se explico previamente es de esa forma en que el evento **MouseClicked** deja de funcionar.*
 
 <div align='center'>
-    <img  src='https://i.imgur.com/JY4RqQN.gif'>
+    <img  src='./resources/MouseClick2.gif'>
     <p>Forma incorrecta de activar el evento MouseClicked</p>
 </div>
 
@@ -552,7 +552,7 @@ public void mousePressed(MouseEvent e) {
 Una vez ejecutamos nuestra aplicación podemos darnos cuenta la función de este evento:
 
 <div align='center'>
-    <img  src='https://i.imgur.com/ZcMHDKy.gif'>
+    <img  src='./resources/MousePress.gif'>
     <p>Componente Configuraciones con la implementación de MousePressed</p>
 </div>
 
@@ -562,7 +562,7 @@ En el anterior video se ven varias particularidades:
 * Si se oprime el botón del Mouse y mientras se mantiene presionado se mueve el Mouse solo se vera reflejado el evento en el **MousePressed.**.
 * Si se oprime el botón afuera del panel de interacción **pDibujo** no se vera reflejado ningún evento.
 
-## mouseReleased
+## MouseReleased
 
 Un evento **MouseReleased** se activa una vez el usuario suelta el botón del Mouse siempre y cuando este haya sido presionado previamente, no ve la necesidad de saber en que momento se oprimió el botón ni si se ha movido el mouse anteriormente a la hora de soltar el botón, este solo se enfoca netamente al momento en que se ha soltado el botón del Mouse. Si este se suelta en alguna parte afuera del panel de interacción **pDibujo** puede funcionar siempre y cuando se haya presionado previamente dentro de el.
 
@@ -577,7 +577,7 @@ public void mouseReleased(MouseEvent e) {
 Una vez ejecutamos nuestra aplicación podemos darnos cuenta la función de este evento:
 
 <div align='center'>
-    <img  src='https://i.imgur.com/9moGdNY.gif'>
+    <img  src='./resources/MouseReleased.gif'>
     <p>Componente Configuraciones con la implementación de MouseReleased</p>
 </div>
 
@@ -602,7 +602,7 @@ public void mouseEntered(MouseEvent e) {
 Una vez ejecutamos nuestra aplicación podemos darnos cuenta la función de este evento:
 
 <div align='center'>
-    <img  src='https://i.imgur.com/ZmJfKSm.gif'>
+    <img  src='./resources/MouseEntered.gif'>
     <p>Componente Configuraciones con la implementación de MouseEntered</p>
 </div>
 
@@ -623,7 +623,7 @@ public void mouseExited(MouseEvent e) {
 Una vez ejecutamos nuestra aplicación podemos darnos cuenta la función de este evento:
 
 <div align='center'>
-    <img  src='https://i.imgur.com/gvN5bgA.gif'>
+    <img  src='./resources/MouseExited.gif'>
     <p>Componente Configuraciones con la implementación de MouseExited</p>
 </div>
 
@@ -676,7 +676,7 @@ public void mouseMoved(MouseEvent e) {
 Una vez ejecutamos nuestra aplicación podemos darnos cuenta la función de este evento:
 
 <div align='center'>
-    <img  src='https://i.imgur.com/zZYqnVy.gif'>
+    <img  src='./resources/MouseMoved.gif'>
     <p>Componente Configuraciones con la implementación de MouseMoved</p>
 </div>
 
@@ -695,7 +695,7 @@ public void mouseDragged(MouseEvent e) {
 Una vez ejecutamos nuestra aplicación podemos darnos cuenta la función de este evento:
 
 <div align='center'>
-    <img  src='https://i.imgur.com/ttbd6Eg.gif'>
+    <img  src='./resources/MouseDragged.gif'>
     <p>Componente Configuraciones con la implementación de mouseDragged</p>
 </div>
 
@@ -735,7 +735,7 @@ Como nuestra clase **configuracionesComponent** implementa de la interfaz **Mous
 
 * **Nota:** Como este método hace parte de la etapa de configuración debe ir entre la construcción del panel y la adición de este en el componente.
 
-## mouseWheelMoved
+## MouseWheelMoved
 
 Este evento se activa una vez el usuario mueve el **Scroll del Mouse**, es decir lo desliza hacia arriba o hacia abajo, para que este evento pueda ser activado debe estar dentro del objeto gráfico que tiene agregado al **MouseWheelListener** en este caso el panel de interacción **pDatos**. Si se realiza afuera de este no tendrá ningún efecto.
 
@@ -832,7 +832,7 @@ public void mouseWheelMoved(MouseWheelEvent e) {
 Si ejecutamos nuestra aplicación podemos ver nuestro evento funcionando:
 
 <div align='center'>
-    <img  src='https://i.imgur.com/iYPEj8N.gif'>
+    <img  src='./resources/MouseWheel.gif'>
     <p>Componente Configuraciones con la implementación de mouseWheelMoved</p>
 </div>
 
@@ -901,7 +901,7 @@ En la anterior condición le estamos indicando al programa que solo cuando el Zo
 Si ejecutamos de nuevo nuestra aplicación notamos que se cumple lo que queríamos:
 
 <div align='center'>
-    <img  src='https://i.imgur.com/0N6SG0F.gif'>
+    <img  src='./resources/MouseWheelTrue.gif'>
     <p>Restricción en la resta del zoom</p>
 </div>
 
