@@ -313,8 +313,4 @@ public class LoginTemplate extends JFrame {
     public JCheckBox getCheckNo(){
         return this.checkNo;
     }
-
-    public RecursosService getRecursosService(){
-        return sRecursos;
-    }
 }
