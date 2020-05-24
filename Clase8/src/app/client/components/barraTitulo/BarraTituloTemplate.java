@@ -76,8 +76,4 @@ public class BarraTituloTemplate extends JPanel{
         );
         this.add(lTituloApp);
     }
-
-    public JButton getBCerrar (){
-        return bCerrar;
-    }
 }
