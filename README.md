@@ -723,7 +723,7 @@ Como con todas las demás interfaces, debemos implementar los métodos por defec
     <p>Métodos implementados por defecto de la interfaz MouseWheelListener</p>
 </div>
 
-Se puede observar que esta vez la interfaz **MouseWheelListener** implementa un total de 1 método por defecto y este sera explicado en esta sección.
+Se puede observar que esta vez la interfaz **MouseWheelListener** implementa un solo método por defecto y este sera explicado en esta sección.
 
 Antes de continuar con la explicación vamos a adicionar la capacidad de escuchar los eventos tipo **MouseWheelListener** a nuestro panel de interacción **pDibujo**, esta vez se usara el método **addMouseWheelListener**:
 ```javascript
