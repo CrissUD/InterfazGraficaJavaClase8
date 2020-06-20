@@ -78,7 +78,7 @@ public class InicioTemplate extends JPanel{
             new TarjetaComponent(
                 "Nuestra Misión", 
                 iTarjeta1, 
-                "<html><div align='justify'>Brindar cursos a la comunidad académica para complementar habilidades fuera del pensum común.</div></html>" 
+                "Brindar cursos a la comunidad académica para complementar habilidades fuera del pensum común." 
             ).getTarjetaTemplate()
         );
     }
@@ -88,7 +88,7 @@ public class InicioTemplate extends JPanel{
             new TarjetaComponent(
                 "Nuestra Visión", 
                 iTarjeta2, 
-                "<html><div align='justify'>Brindar cursos académicos al 80% de los estudiantes de ingeniería de Sistemas.</div></html>" 
+                "Brindar cursos académicos al 80% de los estudiantes de ingeniería de Sistemas." 
             ).getTarjetaTemplate()
         );
     }
@@ -98,7 +98,7 @@ public class InicioTemplate extends JPanel{
             new TarjetaComponent(
                 "Sobre Nosotros", 
                 iTarjeta3, 
-                "<html><div align='justify'>Somos un grupo de trabajo de la Universidad distrital Francisco jose de Caldas.</div></html>"
+                "Somos un grupo de trabajo de la Universidad distrital Francisco jose de Caldas."
             ).getTarjetaTemplate()
         );
     }
@@ -114,7 +114,7 @@ public class InicioTemplate extends JPanel{
         AccionTemplate p1= new AccionComponent(
             iClase, 
             "Clases", 
-            "<html><div align='center'>Clases a la comunidad que complementan el pensum.</div></html>"
+            "Clases a la comunidad que complementan el pensum."
         ).getAccionTemplate();
         p1.setLocation(15, 50);
         this.pAcciones.add(p1);
@@ -123,7 +123,7 @@ public class InicioTemplate extends JPanel{
         AccionTemplate p2= new AccionComponent(
             iPantalla, 
             "Clases Virtuales", 
-            "<html><div align='center'>Cursos virtuales como medio de enseñanza.</div></html>"
+            "Cursos virtuales como medio de enseñanza."
         ).getAccionTemplate();
         p2.setLocation(30 + p2.getWidth(), 50);
         this.pAcciones.add(p2);
@@ -132,7 +132,7 @@ public class InicioTemplate extends JPanel{
         AccionTemplate p3= new AccionComponent(
             iIdea, 
             "Generación de ideas", 
-            "<html><div align='center'>Desarrollo de ideas con tecnologías actuales.</div></html>"
+            "Desarrollo de ideas con tecnologías actuales."
         ).getAccionTemplate();
         p3.setLocation(45 + p3.getWidth() * 2, 50);
         this.pAcciones.add(p3);
@@ -141,7 +141,7 @@ public class InicioTemplate extends JPanel{
         AccionTemplate p4= new AccionComponent(
             iCelular, 
             "Notificaciones", 
-            "<html><div align='center'>Notificaión el estado de tus cursos y actividades.</div></html>"
+            "Notificaión el estado de tus cursos y actividades."
         ).getAccionTemplate();
         p4.setLocation(15, 65 + p4.getHeight());
         this.pAcciones.add(p4);
@@ -150,7 +150,7 @@ public class InicioTemplate extends JPanel{
         AccionTemplate p5= new AccionComponent(
             iEstadistica, 
             "Estadisticas", 
-            "<html><div align='center'>Gestión de participación en nuestros cursos.</div></html>"
+            "Gestión de participación en nuestros cursos."
         ).getAccionTemplate();
         p5.setLocation(30 + p5.getWidth(), 65 + p5.getHeight());
         this.pAcciones.add(p5);
@@ -159,7 +159,7 @@ public class InicioTemplate extends JPanel{
         AccionTemplate p6= new AccionComponent(
             iDireccion, 
             "Dirección", 
-            "<html><div align='center'>Damos direcciónamiento a nuestros estudiantes.</div></html>"
+            "Damos direcciónamiento a nuestros estudiantes."
         ).getAccionTemplate();
         p6.setLocation(45 + p6.getWidth() * 2, 65 + p6.getHeight());
         this.pAcciones.add(p6);
