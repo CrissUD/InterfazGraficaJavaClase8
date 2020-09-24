@@ -9,7 +9,7 @@ import java.awt.Color;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-public class ConfiguracionesTemplate extends JPanel {
+  public class ConfiguracionesTemplate extends JPanel {
   private static final long serialVersionUID = 1L;
 
   // Declaración de servicios e inyección
