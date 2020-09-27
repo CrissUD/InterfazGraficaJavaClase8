@@ -1,12 +1,14 @@
 package app.client.components.tarjeta;
 
+import app.services.ObjGraficosService;
+import app.services.RecursosService;
+
+import java.awt.Color;
+import java.awt.Image;
+
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import java.awt.Color;
-import java.awt.Image;
-import app.services.ObjGraficosService;
-import app.services.RecursosService;
 
 public class TarjetaTemplate extends JPanel {
   private static final long serialVersionUID = 1L;
@@ -28,7 +30,6 @@ public class TarjetaTemplate extends JPanel {
     ImageIcon iImagen, 
     String parrafo
   ) {
-
     this.tarjetaComponent = tarjetaComponent;
     this.tarjetaComponent.getClass();
     sObjGraficos = ObjGraficosService.getService();

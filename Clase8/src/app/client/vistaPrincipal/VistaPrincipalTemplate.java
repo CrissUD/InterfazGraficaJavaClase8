@@ -16,7 +16,6 @@ public class VistaPrincipalTemplate extends JFrame {
   private JPanel pNavegacion, pBarra, pPrincipal;
 
   public VistaPrincipalTemplate(VistaPrincipalComponent vistaPrincipalComponent) {
-
     this.vistaPrincipalComponent = vistaPrincipalComponent;
     this.vistaPrincipalComponent.getClass();
     sObjGraficos = ObjGraficosService.getService();
