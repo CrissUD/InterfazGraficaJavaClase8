@@ -113,7 +113,7 @@ public class InicioTemplate extends JPanel {
       null, null,
       sRecursos.getFontTitulo(),
       null,
-      sRecursos.getColorAzul(),
+      sRecursos.getColorPrincipal(),
       null,
       "c"
     );

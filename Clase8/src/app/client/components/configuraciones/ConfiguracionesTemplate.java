@@ -82,7 +82,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontTitulo(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "c"
     );
@@ -95,7 +95,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontTitulo(),
       null,
-      sRecursosService.getColorMorado(),
+      sRecursosService.getColorSecundario(),
       null,
       "l"
     );
@@ -108,7 +108,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontTitulo(),
       null,
-      sRecursosService.getColorMorado(),
+      sRecursosService.getColorSecundario(),
       null,
       "l"
     );
@@ -121,7 +121,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -134,7 +134,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -147,7 +147,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -160,7 +160,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -173,7 +173,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -186,7 +186,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -199,7 +199,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -212,7 +212,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -225,7 +225,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -238,7 +238,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -251,7 +251,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -264,7 +264,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -279,7 +279,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -292,7 +292,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -305,7 +305,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -318,7 +318,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -331,7 +331,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -344,7 +344,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -357,7 +357,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -370,7 +370,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -383,7 +383,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -396,7 +396,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -409,7 +409,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontLigera(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
@@ -422,7 +422,7 @@ import javax.swing.JPanel;
       null, null,
       sRecursosService.getFontTitulo(),
       null,
-      sRecursosService.getColorAzul(),
+      sRecursosService.getColorPrincipal(),
       null,
       "l"
     );
