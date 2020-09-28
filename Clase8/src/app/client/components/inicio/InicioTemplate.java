@@ -62,15 +62,15 @@ public class InicioTemplate extends JPanel {
   }
 
   public void crearObjetosDecoradores() {
-    this.iTarjeta1 = new ImageIcon("Clase8/resources/images/tarjeta1.jpg");
-    this.iTarjeta2 = new ImageIcon("Clase8/resources/images/tarjeta2.jpg");
-    this.iTarjeta3 = new ImageIcon("Clase8/resources/images/tarjeta3.jpg");
-    this.iClase = new ImageIcon("Clase8/resources/images/clases.png");
-    this.iPantalla = new ImageIcon("Clase8/resources/images/pantalla.png");
-    this.iCelular = new ImageIcon("Clase8/resources/images/celular.png");
-    this.iIdea = new ImageIcon("Clase8/resources/images/ideas.png");
-    this.iEstadistica = new ImageIcon("Clase8/resources/images/estadisticas.png");
-    this.iDireccion = new ImageIcon("Clase8/resources/images/direccion.png");
+    this.iTarjeta1 = new ImageIcon("Clase8/resources/images/tarjetas/tarjeta1.jpg");
+    this.iTarjeta2 = new ImageIcon("Clase8/resources/images/tarjetas/tarjeta2.jpg");
+    this.iTarjeta3 = new ImageIcon("Clase8/resources/images/tarjetas/tarjeta3.jpg");
+    this.iClase = new ImageIcon("Clase8/resources/images/acciones/clases.png");
+    this.iPantalla = new ImageIcon("Clase8/resources/images/acciones/pantalla.png");
+    this.iCelular = new ImageIcon("Clase8/resources/images/acciones/celular.png");
+    this.iIdea = new ImageIcon("Clase8/resources/images/acciones/ideas.png");
+    this.iEstadistica = new ImageIcon("Clase8/resources/images/acciones/estadisticas.png");
+    this.iDireccion = new ImageIcon("Clase8/resources/images/acciones/direccion.png");
   }
 
   public void crearContenidoPMision() {
